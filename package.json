@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headed"
+    "test": "npx cypress run --headed --env allure=true"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.1",
     "cypress": "^12.17.3",
     "typescript": "^5.1.6"
   }
